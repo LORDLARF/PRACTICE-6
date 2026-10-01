@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Регистрация</h2>
+        <form action="../Backend/register.php" method="POST">
+            <label>Логин</label>
+            <input type="text" name="username" required>
+            
+            <label>Пароль</label>
+            <input type="password" name="password" required>
+            
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+        <p>Уже есть аккаунт? <a href="index.html">Войти</a></p>
+    </div>
+</body>
+</html>
